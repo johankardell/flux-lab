@@ -4,3 +4,4 @@ metadata:
   name: jk-flux-demo
   labels:
     name: jk-flux-demo
+    version: 2
