@@ -10,12 +10,11 @@ spec:
   template:
     metadata:
       labels:
-        name: nginx
         app: nginx
     spec:
       containers:
       - name: nginx
-        image: nginx:alpine
+        image: nginx:latest
         resources:
           limits:
             memory: "128Mi"
